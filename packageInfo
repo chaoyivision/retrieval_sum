@@ -1,0 +1,6 @@
+base = {
+  workspace = cyz_retrieval_sum; 
+  versionSet = "AuraSummarization/development";
+};
+packages = { AWSRetrievalBasedSummarization-1.0 = .; };
+platformOverride = AL2_x86_64;
